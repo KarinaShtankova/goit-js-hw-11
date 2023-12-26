@@ -1,0 +1,53 @@
+/* Search  styles */
+
+
+.form{
+/* display: block;
+margin-left: auto;
+margin-right: auto; */
+}
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+}
+
+
+.gallery-item{
+        border: 1px black solid;
+        border-radius: 5px;
+}
+
+
+.gallery-image{
+    width: 360px;
+    height: 240px;
+
+
+}
+
+
+
+
+
+
+
+/* description */
+
+.desc{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.desc-item{
+    font-size: 14px;
+}
+
+
+.desc-title{
+    font-size: 14px;
+}

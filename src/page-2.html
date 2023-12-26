@@ -9,7 +9,37 @@
   <body>
     <section>
       <a href="./index.html">Go to home</a>
-      <h1>Welcome to page 2</h1>
+
+      <ul class="gallery">
+        <li class="gallery-item">
+          <a class="gallery-link" href="${original}"></a>
+          <img
+            class="gallery-image"
+            src="${preview}"
+            data-source="${original}"
+            alt="${description}"
+          />
+
+          <ul class="desc">
+            <li class="desc-item">
+              <h2 class="desc-title">likes</h2>
+              <p class="desc-text">${tags}</p>
+            </li>
+            <li class="desc-item">
+              <h2 class="desc-title">views</h2>
+              <p class="desc-text">${views}</p>
+            </li>
+            <li class="desc-item">
+              <h2 class="desc-title">comments</h2>
+              <p class="desc-text">${comments}</p>
+            </li>
+            <li class="desc-item">
+              <h2 class="desc-title">downloads</h2>
+              <p class="desc-text">${downloads}</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </section>
   </body>
 </html>
