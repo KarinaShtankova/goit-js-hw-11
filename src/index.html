@@ -14,7 +14,21 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/search.html" />
-    <script type="module" src="/main.js"></script>
+    <div class="search">
+      <div class="container">
+        <form class="form">
+          <input
+            class="input"
+            name="search"
+            required
+            placeholder="Search images..."
+          />
+          <button class="btn" type="submit">Search</button>
+        </form>
+        <span hidden></span>
+        <ul class="gallery-list"></ul>
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
